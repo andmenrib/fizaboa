@@ -47,7 +47,7 @@ function IndexPage() {
             <h3 className="font-['Sacramento'] text-white -rotate-6 z-50">
               Edição atual:
             </h3>
-            <div className="-z-10 scale-50 -mt-16 -ml-12 rotate-6 relative w-[28rem] h-[16rem] bg-[linear-gradient(to_right,rgba(0,0,0,0),rgba(0,0,0,0)_75%),url('https://images.unsplash.com/photo-1633520593598-8070a7f23b6c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-center bg-cover rounded-3xl bg-clip-padding border-white border-2">
+            <div className="-z-10 scale-50 -mt-16 -ml-16 md:-ml-12 rotate-6 relative w-[28rem] h-[16rem] bg-[linear-gradient(to_right,rgba(0,0,0,0),rgba(0,0,0,0)_75%),url('https://images.unsplash.com/photo-1633520593598-8070a7f23b6c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-center bg-cover rounded-3xl bg-clip-padding border-white border-2">
               {/* <h6 className="relative flex justify-start items-end text-white">
             Gustavo Sánchez
           </h6> */}
@@ -95,6 +95,36 @@ function IndexPage() {
 
                 {/* </div> */}
               </div>
+            </div>
+            <div className="-z-20 scale-50 -mt-48 -ml-32 md:ml-20 -rotate-6 relative px-3 py-2 w-[28rem] h-[16rem] bg-slate-100 bg-center bg-cover rounded-3xl bg-clip-padding border-white border-2">
+              <div className="absolute bottom-4 left-5">
+                <h1 className="font-['Life_Savers'] text-black text-2xl tracking-widest leading-[.6] uppercase text-center border-yellow-500 border-b-2">
+                  f<span className="text-xl align-text-top">i</span>z
+                  <br />
+                  <span className="text-slate-600 lowercase align-super">
+                    - a -
+                  </span>
+                  <br />b<span className="text-xl">o</span>a
+                </h1>
+              </div>
+              <h4 className="absolute bottom-1 left-20 font-['Sacramento'] text-black text-xl text-center">
+                faz a boa você também!
+              </h4>
+              <h4 className="absolute top-5 right-5 font-['Life_Savers'] text-black text-xl text-center">
+                onde fazer a boa:
+              </h4>
+              <img
+                className="absolute top-14 right-5"
+                width={100}
+                src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcSh-wrQu254qFaRcoYktJ5QmUhmuUedlbeMaQeaozAVD4lh4ICsGdBNubZ8UlMvWjKC"
+              />
+              <h6 className="absolute bottom-7 right-5 font-['Alata'] text-black text-right text-[.6rem] border-b-2 pb-2 border-black">
+                Contato & Renovação: <br />
+                Rosa Maria (32) 99920-3720
+              </h6>
+              <h6 className="absolute bottom-3 right-5 font-['Alata'] text-black text-right text-[.45rem]">
+                Edição I - Cartão com validade limitada
+              </h6>
             </div>
           </div>
         </Col>
@@ -273,6 +303,11 @@ function IndexPage() {
             <h4 className="absolute top-5 right-5 font-['Life_Savers'] text-black text-xl text-center">
               onde fazer a boa:
             </h4>
+            <img
+              className="absolute top-14 right-5"
+              width={100}
+              src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcSh-wrQu254qFaRcoYktJ5QmUhmuUedlbeMaQeaozAVD4lh4ICsGdBNubZ8UlMvWjKC"
+            />
             <h6 className="absolute bottom-7 right-5 font-['Alata'] text-black text-right text-[.6rem] border-b-2 pb-2 border-black">
               Contato & Renovação: <br />
               Rosa Maria (32) 99920-3720

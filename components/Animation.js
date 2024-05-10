@@ -8,11 +8,21 @@ export default function App() {
 
   const [rotation, setRotation] = useState([0, 0, 0]);
 
+  let a = 0.005;
+
+  function calcRotate(x) {
+    if(x < -.5 && a < 0)
+        a *= -1; 
+    if(x > .5 && a > 0)
+        a *= -1;
+    return x + a
+  }
+
   useEffect(() => {
     const interval = setInterval(() => {
       setRotation(prevRotation => [
         prevRotation[0],
-        prevRotation[1] + 0.015,
+        calcRotate(prevRotation[1]),
         prevRotation[2]
       ]);  
     }, 20);
